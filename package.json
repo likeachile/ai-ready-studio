@@ -1,0 +1,22 @@
+{
+  "name": "ai-ready-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lucid — converts visual proposal decks (PDF/PPTX) into AI-Ready Markdown + JSON packages.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.4.21"
+  }
+}
